@@ -19,7 +19,7 @@
 /* navbar styles */
 .navbar{
     display: flex;
-    margin: 0 150px;
+    padding: 50px 120px;
     justify-content: space-between;
     align-items: center;
 }
@@ -37,13 +37,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 70px 267px -90px 267px;
+    text-align: center;
+    margin: 140px 267px -90px 267px;
 }
 .banner-btn{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 150px;
 }
 
 /* main styles */
@@ -145,4 +146,101 @@ main section{
     width: 840px;
     border-radius: 48px;
     margin-top: 20px;
+}
+/* contact section */
+
+.contact-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+.form-title{
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: black;
+}
+.contact-form{
+    width: 100%;
+}
+.form-elements{
+    margin-bottom: 15px;
+}
+.form-elements label{
+    display: block;
+    margin-bottom: 8px;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-elements input, .form-elements textarea{
+    width: 50%;
+    border: 1px solid #d9ddea;
+    border-radius: 6px;
+    background-color: white;
+    padding: 14px 20px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+.form-elements input{
+    height: 45px;
+}
+.form-elements textarea{
+    height: 86px;
+}
+.form-elements input::placeholder, .form-group textarea::placeholder{
+    color: #999;
+}
+.button{
+    width: 57%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color:#5146f5;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #4035e5;
+}
+
+/* footer section */
+.footer{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-heading{
+    font-size: 85px;
+    color: #4E47FF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer-description{
+    color: grey;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.footer-list li{
+    list-style: none;
+    display: inline;
+    text-align: center;
+    margin-right: 25px;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: gray;
 }
